@@ -1,0 +1,10 @@
+1
+add_vertex Function
+This function adds a vertex to the graph.
+The name parameter is the vertex identifier (a char).
+The edges parameter is an unordered_map where each key is a neighboring vertex, and each value is the weight of the edge to that neighbor.
+The function uses insert to add the vertex and its corresponding edges to the vertices map.
+2
+shortest_path Function
+This function implements Dijkstra's algorithm to find the shortest path from the start vertex to the finish vertex.
+It returns a vector of characters representing the vertices in the shortest path from start to finish.
